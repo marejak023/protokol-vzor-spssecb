@@ -1,0 +1,61 @@
+% AUTOR: JAKUB MAREŠ
+% VERZE: v0.1
+% LICENCE: MIT
+% POZNÁMKA: Prosím ponechte dole watermark v podobě orámečkovaného textu, kde tuto předlohu stáhnou. Pomůže to v šíření této předlohy. DÍKY! Pokud máte nějaké připomínky nebo vám něco nesedí, tak mě prosím kontaktuje.
+% ZDROJ: https://github.com/marejak023
+
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{parskip}
+\usepackage[margin=2.54cm,footskip=0.25in]{geometry}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{tcolorbox}
+
+\setcounter{section}{-1}
+\pagenumbering{gobble}
+\setcounter{section}{-1}
+\setlength{\parskip}{2em}
+\newcommand{\fakesection}[1]{%
+\par\refstepcounter{section}% Increase section counter
+\sectionmark{#1}% Add section mark (header)
+\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}% Add section to ToC
+	% Add more content here, if needed.
+	% ToC při protokolech nepoužíváme
+}
+\setlength{\parindent}{0in} % Vypne odsazení u nového odstavce
+\pgfplotsset{compat=1.3} % mění vzdálenost pro y-label u pgfplots
+
+\begin{document}
+
+\begin{center}
+\begin{table}[h]
+\hspace{-0.78cm}
+    \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+        \hline
+        \multicolumn{5}{|c|}{\begin{tabular}[c]{@{}c@{}}STŘEDNÍ PRŮMYSLOVÁ ŠKOLA V ČESKÝCH BUDĚJOVICÍCH, DUKELSKÁ 13\\ \textbf{PROTOKOL}\\ \textbf{O LABORATORNÍM CVIČENÍ}\end{tabular}} \\
+        \hline
+        Provedl:    & Datum:    & Č. Úlohy  & Poř. č. žáka: & Třída: \\
+         &  &  &  & \\
+        \hline
+        Kontroloval:    & Datum:    & \multicolumn{3}{l|}{} \\
+        & & \multicolumn{3}{l|}{} \\
+        \hline
+    \end{tabular}
+\end{table}
+\end{center}
+
+\fakesection{}
+\subsection{Test}
+
+\begin{tcolorbox} % PROSÍM TENTO WATERMARK ZDE PONECHTE
+Pokud chcete na SPŠSE Dukelská 13 psát protokoly v LaTeXu a splňovat při tom požadovanou šablonu, můžete si tuto stáhnout na https://github.com/marejak023
+\noalign{\vskip 2mm}  
+\flushright{Jakub Mareš}
+\end{tcolorbox}
+
+\end{document}
+
