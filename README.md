@@ -23,16 +23,16 @@ Nepoužívají se zde klasické sections (sekce, části) ale je zde struktura:
   
   Tato struktura by poté vypadala následovně:
   
-    <pre>
-    <b>0.1 Zadání úlohy</b>
-    Zde je nějaké zadání úlohy.
+<pre>
+  <b>0.1 Zadání úlohy</b>
+  Zde je nějaké zadání úlohy.
 
-    <b>0.2 Řešení úlohy</b>
-    Zde je nějaké řešení úlohy.
+  <b>0.2 Řešení úlohy</b>
+  Zde je nějaké řešení úlohy.
 
-    <b>1.1 Závěr</b>
-    Zde je nějaký shrnujicí text.
-    </pre>
+  <b>1.1 Závěr</b>
+  Zde je nějaký shrnujicí text.
+</pre>
 
 Vždy dole ponechte watermark v podobě rámečku s odkazem. Jednotky se snažte psát písmem typu roman (v math modu pomocí \mathrm{}), kvůli mezinárodní konvenci (https://information-technology.web.cern.ch/book/e-publishing-handbooks/preparing-your-contribution/using-latex-writing-your-document-0). Proměnné pak zase stylem písma italic (v math modu výcozí).
 Pro grafy používejte pgfplots a pro schémata obvodů circuitikz. Vždy používejte nejnovější verzi.
