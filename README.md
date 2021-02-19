@@ -1,7 +1,7 @@
 # protokol-vzor-spssecb
 Předloha vytvořená v LaTeXu pro ty, co nechtějí psát protokoly ve Wordu.
 
-##Jak šablonu použít?
+## Jak šablonu použít?
 
 compiler: pdfLaTeX (já osobně používám OverLeaf editor, kde je automaticky nastaven jako výchozí https://www.overleaf.com)
 Nepoužívají se zde klasické sections (kapitoly, části) ale je zde struktura
@@ -35,7 +35,7 @@ Nepoužívají se zde klasické sections (kapitoly, části) ale je zde struktur
 Vždy dole ponechte watermark v podobě rámečku s odkazem. Jednotky se snažte psát písmem typu roman (v math modu pomocí \mathrm{}), kvůli mezinárodní konvenci (https://information-technology.web.cern.ch/book/e-publishing-handbooks/preparing-your-contribution/using-latex-writing-your-document-0). Proměnné pak zase stylem písma italic (v math modu výcozí).
 Pro grafy používejte pgfplots a pro schémata obvodů circuitikz. Vždy používejte nejnovější verzi.
 
-##changelog:
+## changelog:
 
 * v0.1 - První vzor
   
