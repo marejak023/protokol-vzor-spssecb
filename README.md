@@ -23,13 +23,13 @@ Nepoužívají se zde klasické sections (sekce, části) ale je zde struktura:
   
   Tato struktura by poté vypadala následovně:
   
-    0.1 Zadání úlohy
+    **0.1 Zadání úlohy**
     Zde je nějaké zadání úlohy.
 
-    0.2 Řešení úlohy
+    **0.2 Řešení úlohy**
     Zde je nějaké řešení úlohy.
 
-    1.1 Závěr
+    **1.1 Závěr**
     Zde je nějaký shrnujicí text.
 
 Vždy dole ponechte watermark v podobě rámečku s odkazem. Jednotky se snažte psát písmem typu roman (v math modu pomocí \mathrm{}), kvůli mezinárodní konvenci (https://information-technology.web.cern.ch/book/e-publishing-handbooks/preparing-your-contribution/using-latex-writing-your-document-0). Proměnné pak zase stylem písma italic (v math modu výcozí).
