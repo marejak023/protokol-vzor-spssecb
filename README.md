@@ -3,7 +3,7 @@ Předloha vytvořená v LaTeXu pro ty, co nechtějí psát protokoly ve Wordu.
 
 ## Jak šablonu použít?
 
-compiler: pdfLaTeX (já osobně používám OverLeaf editor, kde je automaticky nastaven jako výchozí https://www.overleaf.com)
+compiler: pdfLaTeX (já osobně používám OverLeaf editor, kde je automaticky nastaven jako výchozí https://www.overleaf.com).
 Nepoužívají se zde klasické sections (kapitoly, části) ale je zde struktura
 
   \fakesection{} (zvýší hodnotu section counteru +1 bez text)
