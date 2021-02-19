@@ -23,7 +23,7 @@ Nepoužívají se zde klasické sections (sekce, části) ale je zde struktura:
   
   Tato struktura by poté vypadala následovně:
   
-    **0.1 Zadání úlohy**
+    ** 0.1 Zadání úlohy **
     Zde je nějaké zadání úlohy.
 
     **0.2 Řešení úlohy**
